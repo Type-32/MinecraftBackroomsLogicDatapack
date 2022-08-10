@@ -10,4 +10,8 @@ scoreboard players reset @s player.respawn
 scoreboard players reset @s player.spectate
 scoreboard players reset @s player.back_to_lobby
 tag @s remove deadPlayer
+clear @s
+give @s torch 1
+give @s compass{LodestoneDimension:"minecraft:overworld",LodestoneTracked:1b,LodestonePos:{X:-178,Y:-35,Z:41},display:{Name:'{"text": "noclip position","obfuscated": true,"italic": false,"bold": true}'}} 1
+gamemode adventure @s
 #tellraw @a ["",{"text":"C:/Administrator/","bold":true},{"text":"levels_simulation","obfuscated":true,"bold":true},{"text":" >> "},{"selector":"@s"},{"text":" has been disconnected from the levels"}]

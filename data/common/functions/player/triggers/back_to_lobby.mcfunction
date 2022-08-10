@@ -10,4 +10,6 @@ scoreboard players reset @s player.respawn
 scoreboard players reset @s player.spectate
 scoreboard players reset @s player.back_to_lobby
 tag @s remove deadPlayer
+clear @s
+gamemode adventure @s
 #tellraw @a ["",{"text":"C:/Administrator/","bold":true},{"text":"levels_simulation","obfuscated":true,"bold":true},{"text":" >> "},{"selector":"@s"},{"text":" has been disconnected from the levels"}]
